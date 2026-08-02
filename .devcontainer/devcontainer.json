@@ -1,0 +1,11 @@
+{
+    "name": "STQA Practical 6",
+
+    "image": "mcr.microsoft.com/devcontainers/java:21",
+
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+
+    "postCreateCommand": "bash .devcontainer/postCreate.sh"
+}

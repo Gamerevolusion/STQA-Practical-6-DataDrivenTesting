@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Management System</h1>
+
+        <div class="form">
+
+            <label for="studentId">Student ID</label>
+            <input type="text" id="studentId">
+
+            <label for="studentName">Student Name</label>
+            <input type="text" id="studentName">
+
+            <label for="course">Course</label>
+            <input type="text" id="course">
+
+            <label for="marks">Marks</label>
+            <input type="number" id="marks">
+
+            <button id="updateBtn">Update Student</button>
+
+            <p id="message"></p>
+
+        </div>
+
+        <hr>
+
+        <table id="studentTable">
+
+            <thead>
+
+                <tr>
+                    <th>Student ID</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Marks</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr id="student101">
+                    <td id="id101">101</td>
+                    <td id="name101">Rahul</td>
+                    <td id="course101">BSc CS</td>
+                    <td id="marks101">80</td>
+                </tr>
+
+                <tr id="student102">
+                    <td id="id102">102</td>
+                    <td id="name102">Priya</td>
+                    <td id="course102">BSc IT</td>
+                    <td id="marks102">90</td>
+                </tr>
+
+                <tr id="student103">
+                    <td id="id103">103</td>
+                    <td id="name103">Amit</td>
+                    <td id="course103">BCom</td>
+                    <td id="marks103">75</td>
+                </tr>
+
+                <tr id="student104">
+                    <td id="id104">104</td>
+                    <td id="name104">Sneha</td>
+                    <td id="course104">BSc CS</td>
+                    <td id="marks104">88</td>
+                </tr>
+
+                <tr id="student105">
+                    <td id="id105">105</td>
+                    <td id="name105">Neha</td>
+                    <td id="course105">BMS</td>
+                    <td id="marks105">91</td>
+                </tr>
+
+                <tr id="student106">
+                    <td id="id106">106</td>
+                    <td id="name106">Rohan</td>
+                    <td id="course106">BSc IT</td>
+                    <td id="marks106">65</td>
+                </tr>
+
+                <tr id="student107">
+                    <td id="id107">107</td>
+                    <td id="name107">Karan</td>
+                    <td id="course107">BSc CS</td>
+                    <td id="marks107">80</td>
+                </tr>
+
+                <tr id="student108">
+                    <td id="id108">108</td>
+                    <td id="name108">Pooja</td>
+                    <td id="course108">BCom</td>
+                    <td id="marks108">92</td>
+                </tr>
+
+                <tr id="student109">
+                    <td id="id109">109</td>
+                    <td id="name109">Ankit</td>
+                    <td id="course109">BSc IT</td>
+                    <td id="marks109">85</td>
+                </tr>
+
+                <tr id="student110">
+                    <td id="id110">110</td>
+                    <td id="name110">Megha</td>
+                    <td id="course110">BMS</td>
+                    <td id="marks110">78</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

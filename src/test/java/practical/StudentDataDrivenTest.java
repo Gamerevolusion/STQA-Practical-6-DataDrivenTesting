@@ -19,7 +19,7 @@ public class StudentDataDrivenTest {
 
     @Before
     public void setUp() {
-
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
 
         options.setBinary("/usr/bin/chromium");
